@@ -43,7 +43,7 @@ const Footer = () => {
        </div>
 
        {/*copy right*/}
-        <p className="px-1 font-[italic]">Copyright &copy; 2021</p>
+        <p className="px-1 font-[italic]">Copyright &copy; 2023</p>
     </div>
   )
 }

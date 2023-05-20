@@ -36,7 +36,7 @@ const Navigation = () =>{
 
                 {/*mobile menu*/}
             {show && (
-                <div className="bg-black w-[200px] h-screen fixed top-0 left-0 z-10 duration-300 text-white">
+                <div className="bg-black w-[200px] h-screen fixed top-0 left-0 z-10 duration-500 text-white">
                     <AiOutlineClose className="text-white absolute right-0 top-2 text-xl cursor-pointer" onClick={() => setShow(false)}/>
                         <h2 className="text-2xl px-4">Best<span className="ml-1 font-bold">Eats</span></h2>
                     <nav>
@@ -51,7 +51,7 @@ const Navigation = () =>{
                         </ul>
                     </nav>
                     </div>
-            )};
+            )}
         </div>
     )
 }
